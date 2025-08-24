@@ -1,0 +1,23 @@
+This Netflix clone project utilizes **ReactJS** for the frontend and **Firebase** as the backend service. It also integrates with the **Movie Database API (TMDB)** to display movie details.
+
+---
+
+## Key Features
+
+### User Authentication
+- **Firebase Authentication** is used for user sign-up and login.
+- User information is stored in the **Firestore database**.
+
+### Homepage
+- **Navigation Bar**: Includes a logo, menu links (e.g., TV Shows, Movies, New & Popular, My List), and icons for search, notifications, and user profile with a logout option.
+- **Hero Section**: Features a movie banner image, text, and "Play" and "More Info" buttons.
+- **Movie Lists**: Displays various categories of movies (e.g., Blockbuster, Only on Netflix, Upcoming, Top Picks) in horizontally scrollable lists.
+- **Footer**: Contains social media icons and menu links.
+
+### Video Playback
+- Clicking on a movie thumbnail opens a **player page** that displays the movie trailer video.
+- The player page shows the movie title, published date, and type.
+- A **back icon** allows users to return to the homepage.
+
+### Responsiveness
+- The website is **fully responsive**, ensuring it looks good on smaller screens.
